@@ -26,7 +26,7 @@ A wired numberpad in 5×3 layout, with 3× rotary encoders, and a 128×64 LCD di
 - Spacing around encoders on top plate is too wide (ø19mm cutout for ø18mm knobs)
 - Encoders might fit with 10mm standoffs between middle and bottom plate, but it will be tight. 12mm is easier to work with.
 
-See: [Photo Gallery](photos.md)
+See: [Lessons Learnt Part 1](lessons1.md) and [Part 2](lessons2.md)
 
 ## 🛒 Bill of Materials (BOM)
 
@@ -41,7 +41,8 @@ See: [Photo Gallery](photos.md)
 | Switches | MX | 15 |
 | Diodes, 1N4148 | N/A | 18 |
 | Standoffs | M3×10mm | 6 | [Robotics.org.za](https://www.robotics.org.za/M3-NYLON-KIT)
-| Standoffs | M3×6mm | 8 |
+| Standoffs | M3×8mm | 4 |
+| Standoffs | M3×6mm | 4 |
 | Screws | M3×6mm | 6 |
 | Screws | M2×?mm | 4 |
 | Nuts | M3 | 6 |

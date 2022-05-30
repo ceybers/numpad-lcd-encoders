@@ -1,4 +1,4 @@
-# Photos
+# Lessons Learnt Part 1
 
 ## Prototype 1
 ![High angle](images/photos/20220527-IMG_1331.jpg)
@@ -27,3 +27,9 @@ Height of 16mm high knob on 15mm encoder versus plate
 ![](images/photos/20220527-IMG_1341.jpg)
 
 Components below LCD PCB colliding with plate
+
+# 🔗 Links:
+ - [Lessons Learnt Part 2](lessons2.md)
+ - [Readme](README.md)
+
+---
