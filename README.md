@@ -14,6 +14,15 @@ A wired numberpad in 5×3 layout, with 3× rotary encoders, and a 128×64 LCD di
 - Micro-USB connector
 - Cut-outs for MCU boot select switch, and trimpot for LCD brightness 
 
+## 📐 Changes
+
+> Awaiting on 3D prints to be completed.
+- Changed from 5×3 layout to 4×3 layout
+- Changed screen to `12864-WB-33V`
+- Changed from standoff plates to enclosed shell
+- Increased switch plate from 1.5mm to 3.0mm
+- Removed holes in bottom plate for trimpot/reset button
+
 ## ⏳ Issues
 
 > ⚠ Not suitable for actual use. Use at your own risk!
@@ -28,9 +37,9 @@ A wired numberpad in 5×3 layout, with 3× rotary encoders, and a 128×64 LCD di
 
 See: [Lessons Learnt Part 1](lessons1.md) and [Part 2](lessons2.md)
 
-## 🛒 Bill of Materials (BOM)
+## 🛒 Bill of Materials (BoM)
 
-> ⚠ Dimensions for screws still to be finalised
+> ⚠ This BoM is for rev 1, which should not be built/used
 
 | Item | Size | Qty | Store |
 | ---- | ---- | --- | ----- |
@@ -57,7 +66,7 @@ Notes:
 
 ---
 
-![Render of the numberpad pad (transparent)](images/renders/Render-Transparent-Iso.png)
+![Render of the numberpad pad (transparent)](images/renders/Render-Transparent-Iso%20rev%203.png)
 ## 🔗 References
 
 - [KMK firmware](https://github.com/KMKfw/kmk_firmware)
