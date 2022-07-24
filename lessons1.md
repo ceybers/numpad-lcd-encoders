@@ -30,6 +30,7 @@ Components below LCD PCB colliding with plate
 
 # 🔗 Links:
  - [Lessons Learnt Part 2](lessons2.md)
+ - [Lessons Learnt Part 3](lessons3.md)
  - [Readme](README.md)
 
 ---

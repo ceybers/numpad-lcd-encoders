@@ -25,6 +25,7 @@ Close up of the dials on 20mm encoders. This is using 6mm + 8mm standoffs on the
 
 # 🔗 Links:
  - [Lessons Learnt Part 1](lessons1.md)
+ - [Lessons Learnt Part 3](lessons3.md)
  - [Readme](README.md)
 
 ---
