@@ -2,44 +2,39 @@
 
 ## 📻 Project Description
 
-A wired numberpad in 5×3 layout, with 3× rotary encoders, and a 128×64 LCD display.
+A wired numberpad in 4×4 layout, with 3× rotary encoders, and a 128×64 LCD display.
 
-![Photo of first prototype](images/photos/20220527-IMG_1333.jpg)
+![Photo of first prototype](images/photos/20220724-IMG_1459.jpg)
 
 ## 🧰 Features
 
-- 5×3 programmable keys
+- 4×4 programmable keys
 - 3× rotary encoders (rotate and click)
 - 128×64 3.25" LCD display
-- Micro-USB connector
-- Cut-outs for MCU boot select switch, and trimpot for LCD brightness 
+- [KMK firmware](https://github.com/KMKfw/kmk_firmware)
+- Micro-USB connector 
 
 ## 📐 Changes
 
-> Awaiting on 3D prints to be completed.
 - Changed from 5×3 layout to 4×3 layout
 - Changed screen to `12864-WB-33V`
 - Changed from standoff plates to enclosed shell
-- Increased switch plate from 1.5mm to 3.0mm
+- Increased switch plate thickness from 1.5mm to 3.0mm
 - Removed holes in bottom plate for trimpot/reset button
 
 ## ⏳ Issues
 
 > ⚠ Not suitable for actual use. Use at your own risk!
 
-- LCD12864 in BOM has a trimpot and capacitors on the rear of the PCB between the centerlines of two of the screws. Standoffs are required here.
 - Spacing for switches is tight, to the point that the plate will warp and might snap (printer tolerances may vary)
-- Switches next to the bottom two M3 holes will possibly hit pan head screws before bottoming out.
-- The entire build flexes significantly when pressing the encoder switches, or pressing the top middle 3 switches in a chording fashion. Probably needs an additional pair of standoffs between the encoders and the switches.
-- Flex is also an issue when using the magnetic tenting legs.
-- Spacing around encoders on top plate is too wide (ø19mm cutout for ø18mm knobs)
-- Encoders might fit with 10mm standoffs between middle and bottom plate, but it will be tight. 12mm is easier to work with.
+- Top shell around screen can't be secured to rest of case
+- Shell too tall for even 20mm rotary encoders
 
-See: [Lessons Learnt Part 1](lessons1.md) and [Part 2](lessons2.md)
+See: [Lessons Learnt Part 1](lessons1.md), [Part 2](lessons2.md), and [Part 3](lessons3.md)
 
 ## 🛒 Bill of Materials (BoM)
 
-> ⚠ This BoM is for rev 1, which should not be built/used
+> ⚠ Bill still hasn't been updated
 
 | Item | Size | Qty | Store |
 | ---- | ---- | --- | ----- |
@@ -62,11 +57,12 @@ See: [Lessons Learnt Part 1](lessons1.md) and [Part 2](lessons2.md)
 | JST-SH female connectors (optional) | JST-SH 6 pin | 4 pcs | [Robotics.org.za](https://www.robotics.org.za/JST-XH-6P-KIT) |
 
 Notes:
-1. I2C interface not required for the ST7920 controller version of the LCD as it already utilises SPI.
+1. I2C interface not required for the ST7565 controller version of the LCD board as it already utilises SPI.
 
 ---
 
 ![Render of the numberpad pad (transparent)](images/renders/Render-Transparent-Iso%20rev%203.png)
+![Photo showing a close-up of the screen](images/photos/20220724-IMG_1457.jpg)
 ## 🔗 References
 
 - [KMK firmware](https://github.com/KMKfw/kmk_firmware)
